@@ -308,6 +308,17 @@ header {
     color: #000000 !important;
 }
 
+@media (max-width: 1400px) {
+    .contactFormHolder {
+        position: fixed;
+        right: 20px;
+        top: 30px;
+        width: 300px;
+        z-index: 9999;
+    }
+}
+
+
 @media (max-width: 1024px) {
     .contactFormHolder {
         position: fixed;
@@ -781,7 +792,7 @@ del {
 }
 
 .bg-band {
-    background: #ff9999;
+    background: #3c3c3c;
 /*    margin-top: -30px;*/
 /*    position: relative;*/
 /*    z-index: 2;*/;
@@ -886,8 +897,6 @@ del {
 
 .screenshot_slider .owl-item .item img {
     -webkit-transition: 0.3s;
-  /*-webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);*/
     -o-transition: 0.3s;
     transition: 0.3s;
     -webkit-transform: scale(0.6);
@@ -903,11 +912,20 @@ del {
     opacity: 1;
 }
 
+@media (max-width: 1024px){
+  .screenshot_slider .owl-item.center .item img {
+    -webkit-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    transform: scale(1.10);
+    opacity: 1;
+}
+}
+
 @media (max-width: 768px){
   .screenshot_slider .owl-item.center .item img {
-    -webkit-transform: scale(1.20);
-    -ms-transform: scale(1.20);
-    transform: scale(1.20);
+    -webkit-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    transform: scale(1.10);
     opacity: 1;
 }
 }
@@ -1735,6 +1753,17 @@ ul.nptabbs li.active img{
     float: right;
 }
 
+
+@media screen and (max-width: 1200px){
+  
+    .count-title{
+    font-size: 50px;
+    color: #e0cf9b;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px #606060;
+}
+}
+
 @media screen and (max-width: 600px){
 
     .counter-heading{
@@ -2007,6 +2036,19 @@ ul.nptabbs li.active img{
     margin-left: -20px;
     box-shadow: 0 2px 8px rgb(194 194 194 / 30%);
 }
+
+
+@media screen and (max-width: 1400px){
+
+   .flip-card {
+  height: 100%;
+/*  transition: all 1s ease-in-out;*/
+  transform-style: initial;
+  height: 940px;
+}
+
+}
+
 
 @media screen and (max-width: 600px){
 
