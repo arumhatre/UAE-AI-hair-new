@@ -18,6 +18,23 @@ header {
     align-items: center;
 }
 
+.headerno-cls{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.head-main-tel{
+    color: #fff;
+    font-weight: 700;
+  text-decoration: none;
+}
+
+.head-main-tel:hover{
+    color: #dfce9d;
+    text-decoration: none;
+}
+
+
 .uk-banner-vitiligo {
     background-position: top right;
     background-repeat: no-repeat;
@@ -204,7 +221,7 @@ header {
     right: 90px;
     top: 30px;
     width: 300px;
-    z-index: 9999;
+    z-index: 9;
 }
 
 .contactForm {
@@ -314,7 +331,7 @@ header {
         right: 20px;
         top: 30px;
         width: 300px;
-        z-index: 9999;
+        z-index: 9;
     }
 }
 
@@ -325,7 +342,7 @@ header {
         right: 10px;
         top: 30px;
         width: 300px;
-        z-index: 9999;
+        z-index: 9;
     }
 }
 
@@ -1964,6 +1981,11 @@ ul.nptabbs li.active img{
   height: 670px;
 }
 
+.flip-card:hover{
+     transform: rotateY(180deg);
+}
+
+
 .flip-card .card-body{
    padding: 15px;   
 }
@@ -2104,15 +2126,16 @@ ul.nptabbs li.active img{
 
 
 .google-rating-box{
+     height: 360px;
      margin: 15px 0;
-     padding:20px 10px;
+     padding:20px 8px 0px;
      background-color: #fff;
      box-shadow: 0 2px 8px rgb(194 194 194 / 30%);
 }
 
 .google-rating-cls-para{
     padding-top: 10px;
-    font-size: 16px;
+    font-size: 14px;
     color: #636363;
 }
 
@@ -2233,4 +2256,12 @@ ul.nptabbs li.active img{
 
 .popup-vimeo:hover{
     text-decoration: none;
+}
+
+.para-google-rationg-op {
+    background-color: #fff;
+    height: 55px;
+    position: relative;
+    z-index: 999;
+    color: #fff;
 }
