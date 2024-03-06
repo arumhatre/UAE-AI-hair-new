@@ -1870,10 +1870,12 @@ ul.nptabbs li.active img{
 
 .panel-title {
     margin-bottom:0;
+   text-decoration: none !important;
+
 }
 
-.panel-title a{
-   text-decoration: none;
+.panel-title a, .panel-title a:hover{
+   text-decoration: none !important;
    color: #30292b;
    font-size: 21px;
    font-weight: 500;
@@ -1889,20 +1891,22 @@ ul.nptabbs li.active img{
     font-weight: 600;
 }
 
-.panel .panel-heading .panel-title a.collapsed span{
+.panel-title a.collapsed span{
     color: #ffffff;
     background: #000000;
     font-weight: 500;
 }
 
-.panel-group .panel-heading a:after {
+
+
+.panel-title a:after {
   content: '-';
   float: right;
   font-size: 30px;
   font-weight: 400;
 }
 
-.panel-group .panel-heading a.collapsed:after {
+.panel-title a.collapsed:after {
   content: '+';
 }
 
@@ -2043,8 +2047,8 @@ ul.nptabbs li.active img{
    .flip-card {
   height: 100%;
 /*  transition: all 1s ease-in-out;*/
-  transform-style: initial;
-  height: 940px;
+  transform-style: preserve-3d;
+  height: 700px;
 }
 
 }
@@ -2055,7 +2059,7 @@ ul.nptabbs li.active img{
    .flip-card {
   height: 100%;
 /*  transition: all 1s ease-in-out;*/
-  transform-style: initial;
+  transform-style: preserve-3d;
   height: 700px;
 }
 
@@ -2220,4 +2224,13 @@ ul.nptabbs li.active img{
     .addressSection .location-block p br {
         display: none;
     }
+}
+
+.text-play-btn-img{
+    width: 30px !important;
+    margin-right: 10px !important;
+}
+
+.popup-vimeo:hover{
+    text-decoration: none;
 }
